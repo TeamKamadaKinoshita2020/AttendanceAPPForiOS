@@ -8,8 +8,8 @@ struct Constants {
     // 通信結果の真偽返り値の設定(PHPのboolは1,0なので)
     static let RETURN_HTTP_TRUE = "1"
     static let RETURN_HTTP_FALSE = "0"
-    // 出席管理システムのドメイン サーバには乗せていないのでローカルIPアドレス＋階層を記述
-    static let URL_DOMAIN = "http://157.80.87.65/attendancesystem/android/"
+    // 出席管理システムのドメイン　IPアドレス＋階層を記述
+    static let URL_DOMAIN = "hoge" // "http://IP address/attendancesystem/android/"
     // 各処理で接続するURLの定数
     static let URL_GET_POSSIBLE_ATTEND_LIST = "get-possible-attend-list.php"
     static let URL_CHECK_ALREADY_ATTEND = "check-already-attend.php"
